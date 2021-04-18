@@ -1,6 +1,7 @@
 .user-component_subtitle-caution {
-  color: rgba(210, 0, 0, 0.5);
+  color: var(--yellow);
   margin-left: 6px;
+  border-radius: 50%;
 }
 .more-screen .icon-row {
   margin-top: 35px;
@@ -29,12 +30,17 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+.more-suggestions__icon:first-child .more-suggestions__icon-image {
+  background-color: #574b90;
+}
+.more-suggestions__icon:last-child .more-suggestions__icon-image {
+  background-color: #546de5;
 }
 
 .more-suggestions__icon-image i {

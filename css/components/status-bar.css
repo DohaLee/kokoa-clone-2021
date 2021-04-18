@@ -6,7 +6,16 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  background-color: var(--blue);
+  color: var(--clr-light);
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
+.index {
+  background-color: var(--clr-dark);
+}
+
 .status-bar__column {
   width: 33%;
 }

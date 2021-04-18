@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;373&display=swap");
 :root {
-  --yellow: #fae100;
+  --default-font: "Trebuchet MS", sans-serif;
+  --font1: "Oswald", sans-serif;
+  --clr-light: #cad3c8;
+  --clr-dark: #1e2a35;
+  --blue: #182c61;
+  --lowblue: #cad3c823;
+  --yellow: #f97f51;
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --main-border: 1px solid var(--lowblue);
   --gray3: rgba(0, 0, 0, 0.3);
   --gray4: rgba(0, 0, 0, 0.4);
   --gray5: rgba(0, 0, 0, 0.5);

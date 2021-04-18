@@ -1,5 +1,5 @@
-#no-mobile {
-  display: flex;
+#no-portrait {
+  display: none;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -11,8 +11,8 @@
   background-color: var(--clr-dark);
   color: var(--clr-light);
 }
-@media screen and (max-width: 645px) {
-  #no-mobile {
-    display: none;
+@media screen and (hover: none) and (pointer: coarse) and (orientation: landscape) {
+  #no-portrait {
+    display: flex;
   }
 }

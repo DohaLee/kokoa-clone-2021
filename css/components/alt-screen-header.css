@@ -10,11 +10,25 @@
 }
 
 .alt-header__title {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
 }
 .alt-header__column:first-child {
   margin-right: auto;
+}
+@keyframes ButtonAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.alt-header__column > a:hover i {
+  animation: ButtonAnimation 200ms ease-in-out infinite;
 }
 .alt-header__column:nth-child(2) {
   text-align: center;

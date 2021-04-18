@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Amigos - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -15,7 +15,7 @@
         <!--To Do: Wifi Icon-->
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>69:74</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
@@ -27,20 +27,22 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Amigos</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span><i class="fab fa-500px fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
       </div>
     </header>
     <a id="friends-display-link" href=""
-      ><i class="fas fa-info-circle"></i> Friends' Names Display
+      ><i class="fas fa-info-circle"></i> Amigos' Names Display
       <i class="fas fa-chevron-right fa-xs"></i
     ></a>
 
     <main class="friends-screen">
-      <div class="user-component">
+      <div class="user-component hoverscale">
         <div class="user-component__column">
           <img
             src="https://avatars.githubusercontent.com/u/49400942"
@@ -61,12 +63,12 @@
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://avatars.githubusercontent.com/u/49400942"
+              src="https://nomadcoders.co/m.svg"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                Channel
+                NomadCoders
               </h4>
               <!-- <h6 class="user-component__subtitle">this text whatever.</h6> -->
             </div>
@@ -80,7 +82,7 @@
       </div>
     </main>
 
-    <nav class="nav">
+    <nav class="nav delay">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
@@ -107,13 +109,15 @@
       </ul>
     </nav>
     <div id="splash-screen">
-      <i class="fas fa-comment"></i>
+      <i class="fab fa-500px"></i>
     </div>
 
     <div id="no-mobile">
       <span>Your screen is too big !</span>
     </div>
-
+    <div id="no-portrait">
+      <span>Please Turn your phone Portrait mode.</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/bb8ee48338.js"
       crossorigin="anonymous"

@@ -1,6 +1,6 @@
 .settings-list__setting {
   padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--lowblue);
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -13,4 +13,12 @@
 }
 .settings-list__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings-list__setting {
+  transition: transform 100ms linear, color 100ms ease-in-out;
+}
+.settings-list__setting:hover {
+  transform: scale(1.01);
+  color: var(--yellow);
 }

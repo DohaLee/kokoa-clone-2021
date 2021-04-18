@@ -1,11 +1,12 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
-  padding: 15px 0px;
+  background-color: var(--lowblue);
+  opacity: 0.5;
+  padding: 10px 0px;
   font-size: 18px;
-  margin-bottom: 15px;
-  margin-top: -10px;
+  margin-bottom: 20px;
+  border-radius: 10%;
 }
 #friends-display-link i {
   color: var(--gray3);
@@ -24,7 +25,8 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: var(--gray5);
+  color: var(--clr-light);
+  opacity: 0.6;
 }
 
 @keyframes hideSplashScreen {
@@ -38,7 +40,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   position: absolute;
   height: 100vh;
   width: 100vw;
