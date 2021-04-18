@@ -31,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 108vh;
   color: var(--clr-light);
   background-color: var(--clr-dark);
   font-family: var(--default-font);
