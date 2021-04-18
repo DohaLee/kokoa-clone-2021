@@ -26,7 +26,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   color: var(--clr-light);
   background-color: var(--clr-dark);
@@ -68,20 +68,6 @@ main {
 
 /* color */
 
-.clr-dark {
-  color: var(--clr-dark);
-}
-.clr-light {
-  color: var(--clr-light);
-}
 .fnt-grayer {
   opacity: 0.5;
-}
-
-/* background color */
-.b-clr-dark {
-  background-color: var(--clr-dark);
-}
-.b-clr-light {
-  background-color: var(--clr-light);
 }
