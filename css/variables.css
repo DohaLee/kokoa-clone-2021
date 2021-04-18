@@ -7,7 +7,7 @@
   --blue: #182c61;
   --lowblue: #cad3c823;
   --yellow: #f97f51;
-  --horizontal-space: 25px;
+  --horizontal-space: 1.5rem;
   --main-border: 1px solid var(--lowblue);
   --gray3: rgba(0, 0, 0, 0.3);
   --gray4: rgba(0, 0, 0, 0.4);
